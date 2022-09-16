@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Path Planning</title>
+    </head>
+    <body style="background-color:#5AFF75;">
+        <h1 style="text-align: center;">{{ message }}</h1>
+        <form action="/login" method="POST">
+            <p style="text-align: center;">Vertices for Rectangular Plane:</p>
+            <div style="text-align: center;">
+                <input type="vertex" name="vertex" placeholder="enter vertices (x,y): ">
+            </div>
+            <p style="text-align: center;">Turning Radius:</p>
+            <div style="text-align: center;">
+		        <input type="turn_rad" name="turn_rad" placeholder="enter turning radius: ">
+	        </div>
+            <p style="text-align: center;">Start Point:</p>
+            <div style="text-align: center;">
+		        <input type="start_point" name="start_point" placeholder="enter start point (x,y): ">
+	        </div>
+            <p style="text-align: center;">Direction:</p>
+            <div style="text-align: center;">
+		        <input type="direction" name="direction" placeholder="enter direction: ">
+	        </div>
+            <div style="text-align: center;">
+                <input type="submit" value="Make Path">
+            </div>
+        </form>
+    </body>
+</html>
